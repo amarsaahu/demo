@@ -28,15 +28,15 @@ jobs:
       uses: accelq/accelq-ci-github-actions@v1.4
       with:
         # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
-        appURL: "https://poc.accelq.io"
+        appURL: "https://two-spies-relax.loca.lt"
         # Your ACCELQ User ID
-        userName: "117amarnath@gmail.com"
+        userName: "tenantAdmin@accelq.com"
         # API key available in Profile section of ACCELQ
-        apiKey: "nkGzWdGD3Ak9uizQ4Ll12O54iKuCLLTvWMbEvemfCr4"
+        apiKey: "tNKrte65ttvAoSDp7aBV1lv8B4SuB1STpBYADN1pQyM"
         # Tenant Code displayed in the Profile section of ACCELQ
-        tenantCode: "poc"
+        tenantCode: "accelq"
         # This ID should come from the CI job you saved in ACCELQ application
-        jobId: "430403"
+        jobId: "16908"
         # Run Params(optional) should be JSON string form example: '{"username": "John Todd", "password": "bxW&=UVw"}'
         runParam: # optional
         # Proxy Host (optional)
